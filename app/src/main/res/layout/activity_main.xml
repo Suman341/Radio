@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose one hero"
+        android:gravity="center"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/rgSubject"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Spiderman">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbIron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ironman">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbBat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Batman">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbSup"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Superman">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <ImageView
+
+        android:id="@+id/ivShowimg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/select1">
+
+
+    </ImageView>
+
+
+
+
+</LinearLayout>
